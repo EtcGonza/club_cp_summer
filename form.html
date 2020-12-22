@@ -7,58 +7,84 @@
 </head>
 
 <body>
-    <form action="/prueba">
+    <form action="/prueba" method="GET">
+        <!--Se ve en la info por el metodo, si no queres que se vea podes usar POST-->
         <!--Formulario que interactua-->
         <div>
             <!--Etiqueta contenedora y en bloque-->
-            <!--Buena practica tener un orden y en cajitas las etiquetas -->
+            <!--Buena practica tener un orden -->
             <label for="">Nombre:</label>
-            <input type="text" />
+            <input type="text" name="nombre" />
         </div>
         <div>
             <label for="">Apellido:</label>
-            <input type="text" />
+            <input type="text" name="apellido" />
         </div>
         <div>
             <label for="">Edad:</label>
-            <input type="number" />
+            <input type="number" name="edad" />
         </div>
         <div>
             <label for="">Provincia:</label>
-            <select name="" id="">
-                <option>Buenos Aires</option>
-                <option>Catamarca </option>
-                <option>Chaco</option>
-                <option>Chubut</option>
-                <option>Córdoba</option>
-                <option>Corrientes</option>
-                <option>Entre Ríos</option>
-                <option>Formosa</option>
-                <option>Jujuy</option>
-                <option>La Pampa</option>
-                <option>La Rioja</option>
-                <option>Mendoza</option>
-                <option>Misiones</option>
-                <option>Neuquén</option>
-                <option>Río Negro</option>
-                <option>Salta</option>
-                <option>San Juan</option>
-                <option>San Luis</option>
-                <option>Santa Cruz</option>
-                <option>Santa Fe</option>
-                <option>Santiago del Estero</option>
-                <option>Tierra del Fuego</option>
-                <option>Tucumán</option>
+            <select name="provincia" id="">
+                <option value="1">Buenos Aires</option>
+                <option value="2">Catamarca </option>
+                <option value="3">Chaco</option>
+                <option value="4">Chubut</option>
+                <option value="5">Córdoba</option>
+                <option value="6">Corrientes</option>
+                <option value="7">Entre Ríos</option>
+                <option value="8">Formosa</option>
+                <option value="9">Jujuy</option>
+                <option value="10">La Pampa</option>
+                <option value="11">La Rioja</option>
+                <option value="12">Mendoza</option>
+                <option value="13">Misiones</option>
+                <option value="14">Neuquén</option>
+                <option value="15">Río Negro</option>
+                <option value="16">Salta</option>
+                <option value="17">San Juan</option>
+                <option value="18">San Luis</option>
+                <option value="19">Santa Cruz</option>
+                <option value="20">Santa Fe</option>
+                <option value="21">Santiago del Estero</option>
+                <option value="22">Tierra del Fuego</option>
+                <option value="23">Tucumán</option>
             </select>
         </div>
         <div>
             <label for="">Seguis estudiando programacion?</label>
             <input type="radio" name="sigoEstudianto" id="option_yes">
-            <!--Name importante para poder seleccionar-->
+            <!--Name importante para poder seleccionar solamente uno-->
             <label for="option_yes">Si</label>
             <!--Referencia al ID con el for-->
             <input type="radio" name="sigoEstudianto" id="option_no">
             <label for="option_no">No</label>
+        </div>
+        <div>
+            <label for="">Selecciona tus preferencias</label>
+            <input type="checkbox" name="preferencias-mumuki" id="checkbox-mumuki">
+            <label for="checkbox-mumuki">Mumuki</label>
+            <input type="checkbox" name="preferencias-scratch" id="checkbox-scratch">
+            <label for="checkbox-scratch">Scratch</label>
+            <input type="checkbox" name="preferencias-appinventor" id="checkbox-appinventor">
+            <label for="checkbox-appinventor">App Inventor</label>
+            <input type="checkbox" name="preferencias-videojuegos" id="checkbox-videojuegos">
+            <label for="checkbox-videojuegos">Videojuegos</label>
+            <input type="checkbox" name="preferencias-html" id="checkbox-html">
+            <label for="checkbox-html">HTML</label>
+            <input type="checkbox" name="preferencias-css" id="checkbox-css">
+            <label for="checkbox-css">CSS</label>
+            <input type="checkbox" name="preferencias-js" id="checkbox-js">
+            <label for="checkbox-js">JS</label>
+        </div>
+        <div>
+            <input type="submit" />
+            <!--query params-->
+            <!--Como queda en la URL: -EJEMPLO-->
+            <!--http://127.0.0.1:5500/
+                prueba?nombre=+Lisa&apellido=Simpson&edad=8&provincia=22&sigoEstudianto=on&
+                preferencias-scratch=on&preferencias-videojuegos=on&preferencias-js=on-->
         </div>
 
     </form>
