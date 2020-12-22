@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hola Formularios</title>
+</head>
+
+<body>
+    <form action="/prueba">
+        <!--Formulario que interactua-->
+        <div>
+            <!--Etiqueta contenedora y en bloque-->
+            <!--Buena practica tener un orden y en cajitas las etiquetas -->
+            <label for="">Nombre:</label>
+            <input type="text" />
+        </div>
+        <div>
+            <label for="">Apellido:</label>
+            <input type="text" />
+        </div>
+        <div>
+            <label for="">Edad:</label>
+            <input type="number" />
+        </div>
+        <div>
+            <label for="">Provincia:</label>
+            <select name="" id="">
+                <option>Buenos Aires</option>
+                <option>Catamarca </option>
+                <option>Chaco</option>
+                <option>Chubut</option>
+                <option>Córdoba</option>
+                <option>Corrientes</option>
+                <option>Entre Ríos</option>
+                <option>Formosa</option>
+                <option>Jujuy</option>
+                <option>La Pampa</option>
+                <option>La Rioja</option>
+                <option>Mendoza</option>
+                <option>Misiones</option>
+                <option>Neuquén</option>
+                <option>Río Negro</option>
+                <option>Salta</option>
+                <option>San Juan</option>
+                <option>San Luis</option>
+                <option>Santa Cruz</option>
+                <option>Santa Fe</option>
+                <option>Santiago del Estero</option>
+                <option>Tierra del Fuego</option>
+                <option>Tucumán</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Seguis estudiando programacion?</label>
+            <input type="radio" name="sigoEstudianto" id="option_yes">
+            <!--Name importante para poder seleccionar-->
+            <label for="option_yes">Si</label>
+            <!--Referencia al ID con el for-->
+            <input type="radio" name="sigoEstudianto" id="option_no">
+            <label for="option_no">No</label>
+        </div>
+
+    </form>
+</body>
+
+</html>
