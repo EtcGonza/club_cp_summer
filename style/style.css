@@ -1,4 +1,5 @@
-/*estructura en cascada
+/* Esto es un comentario en CSS
+CSS: Estructura en cascada
 
 selectores {
     las propiedades;
@@ -31,13 +32,14 @@ margin
     Seperacion externa
     top 
     left
-    rigth
+    right
     bottom
 
 padding 
     Separacion interna
 En base a las agujas del reloj: 
 superior derecho inferior izquiedo / superior e inferior mas derecho e izquierdo (4 valores, 2 valores)
+
 margin-auto: Para centrar un div en nuestra pantalla que tenga un ancho definido.
 
 border: Para dar un borde a nuestro selector
