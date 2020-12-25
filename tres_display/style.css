@@ -1,0 +1,14 @@
+/*
+Display es una propiedad que usamos en CSS:
+    Nos permite transformar elementos en bloque en linea y viceversa
+
+    Cuatro valores:
+        block
+        inline
+        inline-block
+
+Trasforma el selector. 
+Los elementos en linea no se puede cambiar alto, ancho y margenes verticales para eso hay que usar
+inlineblock
+
+*/
