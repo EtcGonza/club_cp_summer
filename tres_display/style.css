@@ -12,3 +12,52 @@ Los elementos en linea no se puede cambiar alto, ancho y margenes verticales par
 inlineblock
 
 */
+.container_uno {
+    padding: 10px;
+}
+.item_uno {
+    background-color: blue;
+    margin: 10px;
+    margin-top: 50px;
+    display: inline; /*Transforma una etiqueta en bloque a algo que es en linea*/
+}
+
+.item_dos {
+    background-color: violet;
+    margin: 5px;
+    display: inline-block; /*Transforma una etiqueta en bloque a algo que es en linea y nos deja cambiar 
+    la altura*/
+    height: 40px;
+}
+
+body {
+    color: #f2f3f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: thistle;
+    padding: 20px;
+    border-left: 2px solid blue;
+    border-radius: 5px;
+
+}
+
+.item {
+    margin: 10px;
+    border-bottom: 1px solid blue;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.learn {
+    text-align: center;
+    color: blue;
+    font-style: unset;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+
