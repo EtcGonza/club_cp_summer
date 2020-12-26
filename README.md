@@ -1,19 +1,18 @@
 # HTML y CSS para el Club de Chicas Programadoras
 
-- uno_index.html ->
-  HTML primeros pasos
+- Carpeta -> uno_html -> 
+  HTML primeros pasos / Formularios / HTML semantico
   
   
-- dos_form.html ->
-  Un formulario en HTML
+- Carpeta -> dos_style_css -> 
+  CSS primeros pasos  
   
   
-- tres_mypage.html->
-  HTML semántico 
+- Carpeta -> tres_.display->
+  posicionamos en css con display
   
   
-- cuatro_html_css.html ->
-  Uniendo HTML con CSS
+
 
 
 
