@@ -1,0 +1,48 @@
+/*
+Dom: Documento
+
+Position:
+No hay que abusar del mismo.
+Utilizar estrictamente cuando sea necesario: Barra de navegacion, una publicidad, menu lateral
+Se pueden acomodar con 
+    top
+    left
+    right 
+    bottom
+
+1 position Static: No cambia absolutamente nada
+Todos los elementos vienen asi
+2 position Relative: Conserva el espacio en el dom
+Lo movemos pero conserva el espacio original
+3 position Absolute: Saca el elemento del flujo normal de los datos.
+Pierde el espacio en el dom, se encuentra flotando
+El punto de partida va a ir mirando la jerarquia.
+4 position Fixed: Posiciona un elemento en base del viewport
+Se usa mucho en twitter, facebook.
+*/
+
+div {
+    width: 400px;
+    height: 400px;
+    display: inline-block; /*Para cambiar el alto y el ancho, queda una al lado de la otra*/
+}
+
+.cuadrado1 {
+    background-color: red;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.cuadrado2 {
+    background-color: blue;
+    position: absolute;
+    top: 1000px;
+    left: 50px;
+}
+
+.cuadrado3 {
+    background-color: chartreuse;
+    position: fixed;
+
+}
