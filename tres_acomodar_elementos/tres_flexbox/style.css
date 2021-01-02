@@ -1,0 +1,209 @@
+/*
+Flexbox es un modulo de css que nos permite acomodar los elementos en nuestro documento
+de manera facil y escalable
+Darle valor flex a la propiedad display del padre de los elementos que queremos modificar
+Todo el contenido es FLEXIBLE
+
+RECORDAR: El valor se le tiene que poner al contenedor del elemento
+
+flex direction
+
+justify content
+
+align items
+
+como fila o como columna se usa -unidireccional-
+*/
+body {
+    margin: 0;
+    background-color: thistle;
+}
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.cuadradoA {
+    background-color: brown;
+}
+.cuadradoB {
+    background-color: rgb(12, 12, 119);
+}
+.cuadradoC {
+    background-color: green;
+
+}
+
+/*
+.container_uno{
+    display: inline-block;
+}
+...
+*/
+
+.cuadradoi {
+    background-color: rgb(233, 71, 71);
+    display: inline-block;
+}
+.cuadradoii {
+    background-color: rgb(45, 45, 167);
+    display: inline-block;
+
+}
+.cuadradoiii {
+    background-color:rgb(74, 231, 74);
+    display: inline-block;
+}
+
+.container_dos { /*En este caso achica con tu navegador y mira la diferencia con inline-block*/
+    display: flex;
+}
+.cuadrado1 {
+    background-color: red;
+}
+.cuadrado2 {
+    background-color: blue;  
+
+}
+.cuadrado3 {
+    background-color: rgb(110, 179, 41);
+}
+
+.container_tres{
+    display: flex;
+    flex-direction: column;
+}
+.cuadradoD {
+    background-color: rgb(119, 12, 12);
+}
+.cuadradoDD {
+    background-color: rgb(116, 156, 207);  
+
+}
+.cuadradoDDD {
+    background-color: rgb(9, 172, 36);
+}
+
+.container_cuatro {
+    display: flex;
+    justify-content: flex-end;
+}
+.cuadradoE {
+    background-color: rgb(167, 0, 0);
+}
+.cuadradoEE {
+    background-color: rgb(195, 221, 255);  
+}
+.cuadradoEEE {
+    background-color: rgb(74, 141, 7);
+}
+
+.container_cinco {
+    display: flex;
+    justify-content: center;
+}
+.cuadradoF {
+    background-color: rgb(167, 0, 0);
+}
+.cuadradoFF {
+    background-color: rgb(195, 221, 255);  
+}
+.cuadradoFFF {
+    background-color: rgb(74, 141, 7);
+}
+
+.container_seis {
+    display: flex;
+    justify-content: space-between;
+}
+.cuadradoG {
+    background-color: rgb(167, 0, 0);
+}
+.cuadradoGG {
+    background-color: rgb(195, 221, 255);  
+}
+.cuadradoGGG {
+    background-color: rgb(74, 141, 7);
+}
+
+.container_siete {
+    display: flex;
+    justify-content: space-around; /*observar los espacios*/
+}
+.cuadradoH {
+    background-color: rgb(167, 0, 0);
+}
+.cuadradoHH {
+    background-color: rgb(195, 221, 255);  
+}
+.cuadradoHHH {
+    background-color: rgb(74, 141, 7);
+}
+
+.container_ocho {
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    background-color: hotpink;
+    align-items: center;
+}
+.cuadradoJ {
+    background-color: rgb(167, 0, 0);
+}
+.cuadradoJJ {
+    background-color: rgb(195, 221, 255);  
+}
+.cuadradoJJJ {
+    background-color: rgb(74, 141, 7);
+}
+
+.container_nueve {
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    background-color: hotpink;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cuadradoK {
+    background-color: rgb(167, 0, 0);
+}
+.cuadradoKK {
+    background-color: rgb(195, 221, 255);  
+}
+.cuadradoKKK {
+    background-color: rgb(74, 141, 7);
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_container {
+    width: 1000px;
+    margin: auto;
+}
+
+.container_ejemplo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;   
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.final{
+    text-align: center;
+}
