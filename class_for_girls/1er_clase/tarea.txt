@@ -1,0 +1,8 @@
+Armar un index.html que contenga:
+
+    Un titulo
+    Una imagen
+    Un enlace al exterior del sitio
+    Un parrafo
+    Un footer
+    
